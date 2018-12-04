@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Kalkulator</title>
+  
+   
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+	<div class="container">  
+		<center><h3> KALKULATOR </h3> </center>	
+		<form>
+		<div class="masukan">
+		<input type='text' name='nilai' style="width: 168px" id="number1" class="number" placeholder='Input'/>
+		</div>
+		<p><input type="reset" name="clear" value=" CLEAR " style="width:100px" class="clear" onclick="clear" />
+		<input type='text' name='hasil' style="width: 100px" id="hasil" placeholder='Output'/>
+		</form>
+		<br>
+			<button type="submit" style="width: 60px" onclick='tambah()'>+</button>
+			<button type="submit" style="width: 60px" onclick='kurang()'>-</button>
+			<button type="submit" style="width: 60px" onclick='kali()'>x</button>
+			<button type="submit" style="width: 60px" onclick='bagi()'>:</button>
+			<button type="submit" style="width: 60px" onclick='hitung()'>=</button>
+
+
+
+    	<script  src="js/index.js"></script>
+	</div>
+
+
+</body>
+
+</html>
